@@ -1,0 +1,22 @@
+void setup() {
+  pinMode(4, OUTPUT);  //sets the digital pin 13`` on
+  pinMode(1, OUTPUT);  //sets the digital pin 1 on
+  pinMode(11, OUTPUT);  //sets the digital pin 11 on
+
+  
+
+}
+
+void loop() {
+
+  int Pause = 1000;
+  // put your main code here, to run repeatedly:
+  digitalWrite(4, HIGH);  //sets the digital pin 13 on
+  delay(Pause * 10);            // waits one second
+  digitalWrite(4, LOW);  // sets the digital pin 13 off
+  delay(Pause / 100);            // watis one second
+
+
+
+
+}
